@@ -45,3 +45,18 @@ Ensure you have the required dependencies installed. You can install them using 
 
 ```sh
 pip install -r requirements.txt
+
+## 📊 Data  
+
+This application uses data from **two CSV files**, available in the `data` repository.  
+
+Both datasets are sourced from Kaggle:  
+
+- **[Olympic medals](./src/data/olympic_medals.csv)** – Contains all medals (**gold, silver, bronze**) awarded at all Olympic Games.  
+- **[Olympic cities](./src/data/olympic_cities.csv)** – Includes geographical details of Olympic host cities along with summary information about each Olympic event.  
+
+### 🙌 A Special Thanks to [@enarroied](https://github.com/enarroied) (Eric Narro)  
+
+I sincerely appreciate the support and guidance of **Eric Narro** throughout this project. His expertise and insights helped me **adapt to the new Taipy 3.1 GUI system** and improve the overall structure of the dashboard.  
+
+**Thank you, Eric, for your valuable help!** 🚀👏  
