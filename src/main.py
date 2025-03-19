@@ -24,7 +24,7 @@ if __name__ == "__main__":
     gui_multi_pages.run(
         use_reloader=True,
         title="Olympic medals 🥇",
-        port=10000,
+        port=2452,
         dark_mode=False,
     )
 
