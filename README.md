@@ -1,53 +1,47 @@
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
-![Taipy Version](https://img.shields.io/badge/Taipy-3.1-blue.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)  
+![License](https://img.shields.io/badge/License-MIT-blue.svg)  
+![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue.svg)  
+![Taipy Version](https://img.shields.io/badge/Taipy-3.1-blue.svg)  
 
-# 🥇🥈🥉 Olympic medals
+# 🥇🥈🥉 Olympic medals  
 
-## Introduction and context
+## Introduction and context  
 
-Welcome to **Olympic Medals**, a simple Taipy dashboard that shows information about Olympic medals awarded from the beginning of modern Olympic games until the beginning of the year 2024 (this is, the Paris Olympics 2024 are not included). The dashboard has two tabs:
+Welcome to **Olympic Medals**, a simple Taipy dashboard that shows information about Olympic medals awarded from the beginning of modern Olympic games until the beginning of the year 2024.  
 
-* A tab shows aggregated data for all Olympic medals
-* A second tab focuses on medals won by Olympic committees (countries, but also special committees, such as the Refugee committee and so on)
+### Recent Updates  
+- **Eric Narro** helped me a lot in adapting to this project.  
+- I have added the **latest 2024 Paris Olympic dataset**.  
+- First, I **cleaned and organized** the dataset to ensure compatibility with the project design and dashboard.  
 
-The following video presents the dashboard:
+The dashboard has two tabs:  
+- A tab showing aggregated data for all Olympic medals.  
+- A second tab focusing on medals won by Olympic committees (countries, but also special committees, such as the Refugee committee).  
 
-[![Click to watch the video](img/YT.png)](https://www.youtube.com/watch?v=_1X7etBFTk0)
+The following video presents the dashboard:  
 
-**Context**: This is a demonstration application. It uses **Taipy 3.1**, released a week before writing these lines. Coding this application allowed me to compare it with previous versions of Taipy, I coded a [similar dashboard about wine production in France](https://github.com/enarroied/taipy_wine_app) using Taipy 3.0.
+[![Click to watch the video](img/YT.png)](https://www.youtube.com/watch?v=_1X7etBFTk0)  
 
-I chose the create a dashboard about the olympic games because 2024 is an Olympic year in Paris, and I live in France:
+**Context**: This is a demonstration application. It uses **Taipy 3.1**, released a week before writing these lines. Coding this application allowed me to explore the new Pythonic GUI system introduced in Taipy 3.1.  
 
-![](img/jo.jpeg)
+I chose to create a dashboard about the Olympic Games because **2024 is an Olympic year in Paris**, and I live in France:  
 
-The main change of Taipy 3.1 is the way you apply the GUI elements. They replaced their unique Markdown syntax by a more pythonic system that relies on functions. This is what I wanted to test. This project does **not** use Taipy Core.
+![](img/jo.jpeg)  
 
+The main change in Taipy 3.1 is how GUI elements are applied. Instead of the previous Markdown-based syntax, it now uses a more **Pythonic function-based system**. This project does **not** use Taipy Core.  
 
-## Features
+## Features  
 
-* Multi-Page Dashboard: Switch between tabs; the application has two pages.
-* Several types of charts: Bar charts, sunburst charts, line charts, choropleth maps and grid charts.
-* Dynamic Data Updates: The dashboard dynamically updates data based on the selected year and area type. 
-* The app has different types of selectors.
+- **Multi-Page Dashboard**: Switch between tabs; the application has two pages.  
+- **Several types of charts**: Bar charts, sunburst charts, line charts, choropleth maps, and grid charts.  
+- **Dynamic Data Updates**: The dashboard dynamically updates data based on the selected year and area type.  
+- **Interactive Selectors**: The app includes various types of selectors for user interaction.  
 
-## Getting Started
+## Getting Started  
 
-### Installation
+### Installation  
 
-Ensure you have the required dependencies installed. You can install them using the following:
+Ensure you have the required dependencies installed. You can install them using the following:  
 
-`pip install -r requirements.txt`
-
-The app uses Pandas and Plotly.
-
-
-## Data
-
-This application uses data from 2 CSV files. You can find them in the `data` repository.
-
-Both datasets are available on Kaggle with complete references:
-
-* [Olympic medals](https://www.kaggle.com/datasets/ericnarro/all-olympic-medals-until-2024-before-paris-games) has all the medals (gold, silver, bronze) awarded at all Olympics.
-* [Olympic cities](https://www.kaggle.com/datasets/ericnarro/olympic-cities-summary) has the geographical information about the Olympic cities (the app has maps). it also has some summary information about each Olympic game.
+```sh
+pip install -r requirements.txt
