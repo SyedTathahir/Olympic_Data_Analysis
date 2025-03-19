@@ -45,7 +45,7 @@ Ensure you have the required dependencies installed. You can install them using 
 
 ```sh
 pip install -r requirements.txt
-
+```
 ## 📊 Data  
 
 This application uses data from **two CSV files**, available in the `data` repository.  
