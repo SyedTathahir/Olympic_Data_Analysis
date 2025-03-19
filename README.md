@@ -24,7 +24,7 @@ The following video presents the dashboard:
 
 **Context**: This is a demonstration application. It uses **Taipy 3.1**, released a week before writing these lines. Coding this application allowed me to explore the new Pythonic GUI system introduced in Taipy 3.1.  
 
-I chose to create a dashboard about the Olympic Games because **2024 is an Olympic year in Paris**, and I live in France:  
+	I was curious about making a dashboard website, which led me to discover the Taipy library. While exploring it, I came across this project and decided to create a dashboard about the Olympic Games because 2024 is an Olympic year in Paris, and I live in France. Eric Narro played a crucial role in helping me understand how to use Taipy effectively and integrate it into this project:
 
 ![](img/jo.jpeg)  
 
